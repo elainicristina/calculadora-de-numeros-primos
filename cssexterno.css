@@ -1,0 +1,71 @@
+/*************/
+/*Limpar formatações padrão*/
+* {
+	margin: 10px;
+	padding: 0;
+}
+body {
+    font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#numero{
+    width: 65px;
+    border: none;
+    padding: 5px;
+    text-align: center;
+}
+
+#numero:active{
+    border: none;
+}
+
+#cabecalho {
+    margin: auto;
+    background-color: #023431;
+    opacity: 0.95;
+	padding: 15px;
+    margin-top: 90px;
+    text-align: center;
+    width: 650px;
+    color: #e7e7e7;
+    font-family: cursive;
+
+}
+
+#area-assunto {
+
+    font-family: cursive;
+    margin: auto;
+    background-color: #023431;
+	padding: 15px;
+    opacity: 0.95;
+    text-align: center;
+    width: 650px;
+    font-size: 1.2em;
+    color: #e7e7e7;
+
+
+}
+
+button {
+    width: 100px;
+    padding: 5px;
+    border: none;
+    background-color: rgba(138, 168, 166, 0.445);
+    color: rgb(255, 255, 255);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+}
+
+button:hover {
+    background-color: rgba(129, 114, 105, 0.445);
+}
+
+button:active {
+    background-color: rgb(109, 94, 94);
+}
+
+h3{
+    display: inline;
+}
